@@ -1,15 +1,8 @@
 # Overview of Data Collection Principles {#ODCP}
 
-## Objectives
-
-1) Define and use properly in context all new terminology, to include: *population*, *sample*, *anecdotal evidence*, *bias*, *simple random sample*, *systematic sample*, *non-response bias*, *representative sample*, *convenience sample*, *explanatory variable*, *response variable*, *observational study*, *cohort*, *experiment*, *randomized experiment*, and *placebo*.  
-
-2) From a description of a research project, be able to describe the population of interest, the generalizability of the study, the explanatory and response variables, whether it is observational or experimental, and determine the type of sample.  
-
-3) In the context of a problem, explain how to conduct a sample for the different types of sampling procedures.  
-
-
 ## Overview of data collection principles
+
+In the last chapter, we briefly introduced data and some language around it. In short, data often are presented in *data frames*, where *cases* or *observational units* are presented in rows, and *variables* are presented in columns. Too often, much attention is given to analysis of existing data, but not enough attention is given to where the data came from, why it was collected, and what research question are we addressing. Over the next two chapters, we will introduce some data collection principles and some various types of random sampling.   
 
 The first step in conducting research is to identify topics or questions that are to be investigated. A clearly laid out research question is helpful in identifying what subjects or cases should be studied and what variables are important. It is also important to consider *how* data are collected so that they are reliable and help achieve the research goals.
 

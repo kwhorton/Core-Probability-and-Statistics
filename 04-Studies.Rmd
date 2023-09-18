@@ -1,15 +1,8 @@
 # Studies {#STUDY}
 
-## Objectives
-
-1) Define and use properly in context all new terminology, to include: *confounding variable*, *prospective study*, *retrospective study*, *simple random sampling*, *stratified sampling*, *strata*, *cluster sampling*, *multistage sampling*, *experiment*, *randomized experiment*, *control*, *replicate*, *blocking*, *blocks*, *treatment group*, *control group*, *blinded study*, *placebo*, *placebo effect*, and *double-blind*.  
-
-2) Given a study description, be able to describe the study using correct terminology.  
-
-3) Given a scenario, describe flaws in reasoning and propose study and sampling designs.  
-
-
 ## Observation studies, sampling strategies, and experiments
+
+We have introduced data and some language around data collection (*population* and *sample*, *bias*, *representative*, *explanatory* and *response* variables, and *observational studies* and *experiments*). In this chapter, we focus on the actual collection of the data. What kinds of sampling can/should we conduct? What is the difference between an observational study and an experiment, and how do we effectively set up an experiment? An understanding of these concepts is important prior to exploring and visualizing data. 
 
 ### Observational studies
 

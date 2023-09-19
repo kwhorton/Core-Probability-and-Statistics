@@ -116,9 +116,34 @@ str(ncbirths)
 
 Each row in this data frame represents an *observational unit* or a *case*. In this example, a *case* is a birth. Each column represents a *variable*. There are 13 variables in this data frame, containing information about births like father's age, mother's age, maturity status of the mother, etc. 
 
+
+### Tidy Data
+
+In this course, we will usually interact with data frames that are **tidy**. Tidy data is a structured and standardized way of organizing and formatting data sets so that they are easy to work with, analyze, and visualize. The core idea behind tidy data is to make data more understandable and user-friendly by adhering to a set of principles for data organization.
+
+The key principles of tidy data are as follows:
+
+1. Each variable forms a column: In tidy data, each variable (e.g., a measurement, attribute, or characteristic) is represented as a separate column in the data frame or table. This makes it clear which variables are being measured or observed.
+
+2. Each case or observational unit forms a row: Each row in the data represents a single observation or case. Observations that share common attributes or characteristics are grouped together in rows.
+
+3. Each type of observational unit forms a table: Tidy data is often organized into separate tables for each type of observational unit or data source. This helps maintain clear relationships between different parts of the data.
+
+Tidy data is considered good for several reasons:
+
+- Readability and understandability: Tidy data makes it easier for analysts and data scientists to understand the structure of the data and the relationships between variables. This standard format reduces ambiguity and confusion.
+
+- Compatibility with data tools: Tidy data is compatible with a wide range of data manipulation and visualization tools, such as R's `tidyverse` packages (e.g., `dplyr` and `ggplot2`) and Python's `pandas` library. This compatibility streamlines the data analysis workflow.
+
+- Facilitates data analysis and visualization: Tidy data simplifies data analysis and visualization tasks because it aligns with the principles of tidyverse and similar libraries. Analysts can write more concise and readable code when the data is organized tidily.
+
+- Supports data sharing and collaboration: Tidy data is suitable for sharing and collaborating on data analysis projects because it provides a clear and consistent data structure that others can easily understand and work with.
+
+Overall, tidy data promotes good data hygiene and helps ensure that data analysis is efficient, reproducible, and less error-prone. By adhering to the principles of tidy data, analysts can spend less time wrangling data and more time gaining insights from it.
+
 ### Types of Variables
 
-Note in our example that the variables are stored differently from one another. First consider `weight`. It is said to be a *numerical variable* (sometimes called a quantitative variable) since it can take a wide range of numerical values, and it is sensible to add, subtract, or take averages with those values. 
+Note in the `ncbirthds` data frame that the variables are stored differently from one another. First consider `weight`. It is said to be a *numerical variable* (sometimes called a quantitative variable) since it can take a wide range of numerical values, and it is sensible to add, subtract, or take averages with those values. 
 
 The `visits` variable is also numerical; it is sensible to add, subtract, or take averages with those values, although it seems to be a little different than `weight`. This variable represents number of hospital visits during pregnancy and can only be a whole non-negative number ($0$, $1$, $2$, $...$). For this reason, the `visits` variable is said to be **discrete** since it can only take specific numerical values. On the other hand, the birth weight variable is said to be **continuous** because it can take on any value in some interval. Now technically, there are no truly continuous numerical variables since all measurements are finite up to some level of accuracy or measurement precision (e.g., we recorded birth weights to the nearest hundredth of a pound).
 
